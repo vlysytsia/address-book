@@ -41,7 +41,7 @@ export const Home = ({
   // initial user loading
   useEffect(() => {
     loadUsers();
-  }, [loadUsers]);
+  }, []);
 
   // add infinity scroll effect
   useEffect(() => {
