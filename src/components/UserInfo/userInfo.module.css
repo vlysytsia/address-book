@@ -1,0 +1,51 @@
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-align: center;
+  background: #d1ebfb;
+}
+
+.thumbnail {
+  width: 50px;
+  height: auto;
+  margin: 0px 0 5px 0;
+  border-radius: 3px;
+}
+
+.info {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.name {
+  margin: 0 0 5px;
+  font-size: 24px;
+}
+
+.email {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.detailsBtn {
+  display: block;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #09f;
+  border-radius: 3px;
+  background: #fff;
+  color: #09f;
+  margin: 10px 0 0 0;
+  cursor: pointer;
+  transition: all 0.25s ease 0s;
+}
+
+.detailsBtn:hover {
+  background: #09f;
+  color: #fff;
+}

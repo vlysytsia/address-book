@@ -1,0 +1,13 @@
+.message {
+  margin: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.defult {
+  color: #000;
+}
+
+.error {
+  color: #f00;
+}

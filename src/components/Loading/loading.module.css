@@ -1,0 +1,36 @@
+.loading {
+  margin: 20px 0 40px;
+  text-align: center;
+}
+
+.loading span {
+  display: inline-block;
+  margin: 4px;
+  color: #000;
+  font-size: 30px;
+  animation: letters 0.6s cubic-bezier(0.6, 0.1, 0.6, 0.6);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.loading span:nth-child(0) {
+  animation-delay: 0.1s;
+}
+
+.loading span:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.loading span:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+@keyframes letters {
+  from {
+    transform: translate3D(0, -10px, 0);
+  }
+
+  to {
+    transform: translate3D(0, 0px, 0);
+  }
+}

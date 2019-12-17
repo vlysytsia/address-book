@@ -1,0 +1,29 @@
+.navbar {
+  width: 100%;
+  padding: 10px 0;
+  background: #000;
+}
+
+.menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  list-style: none;
+}
+
+.item a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  color: #fff;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+}
+
+.item a:hover,
+.item a.active {
+  border-bottom-color: #fff;
+}

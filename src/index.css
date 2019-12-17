@@ -1,0 +1,42 @@
+* {
+  font-family: 'Helvetica', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+}
+
+.preventScroll {
+  overflow: hidden;
+}
+
+a {
+  color: #09f;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
