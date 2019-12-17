@@ -1,11 +1,17 @@
 # Address book app
 
+## [https://vl-address-book.herokuapp.com/] Demo
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Project setup
+For local installetion clone this repository
 
-Run node modules installation
-### `npm install`
+`git clone https://github.com/volodymyrl/address-book.git`
+ 
+In root project directory  install node modules
+
+`npm install`
 
 ## Available Scripts
 
