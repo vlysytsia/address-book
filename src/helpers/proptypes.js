@@ -15,7 +15,7 @@ export const userPropTypes = {
     }),
     city: PropTypes.string,
     state: PropTypes.string,
-    postcode: PropTypes.number
+    postcode: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
   }),
   login: PropTypes.shape({
     uuid: PropTypes.string
