@@ -1,6 +1,6 @@
 # Address book app
 
-## [https://vl-address-book.herokuapp.com/] Demo
+## [Demo](https://vl-address-book.herokuapp.com/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
