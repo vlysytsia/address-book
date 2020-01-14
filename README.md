@@ -2,6 +2,8 @@
 
 ## [Demo](https://vl-address-book.herokuapp.com/)
 
+## [Task description](https://github.com/volodymyrl/address-book/blob/master/task.md)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Project setup
